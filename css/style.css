@@ -34,7 +34,10 @@ p{
 .navbar {
     font-family: 'Karla', sans-serif;
     border-bottom: none;
-    height: 60px;
+    height: 50px;
+    background-color: transparent!important;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .navbar-nav a {
@@ -48,25 +51,30 @@ p{
     
 }
 
+
+
+
 /*HOME*/
     
 .home{
-      background-color: grey;
-      width: 100%;
-      height: 100%;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
     min-width: 1000px;
     min-height: 1000px;
-    
-       }
+    background-image: url(codebus.jpg);
+    background-size:cover;
+    filter: brightness(25%);
+    }
+
 
 .home h1{
-    font-size: 102px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+    font-size: 28px;
+    font-family: 'poppins', sans-serif;
+    color: white!important;
     text-align:center;
-    line-height: 500px;
-
-}
+    padding-top: 300px;
+   }
 
 
 @media(max-width:768px){
