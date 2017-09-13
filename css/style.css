@@ -1,58 +1,17 @@
-.{
-    padding: 0;
-    margin: 0;
-}  
-.body{
-    overflow-x: hidden;
-    font-family: "open sans", sans-serif;
-    text-rendering: optimizeLegibility !important;
-    -webkit- font-smoothing; antialiased !important;
-} 
-li{
-    list-style: none;
-    display: inline-block;
-}
-a{
-    text-decoration: none;
-    transition: all 500ms ease-in-out;
-}
-p{
-    font-size: 15px;
-    line-height: 21px;
-    
-}
-.btn:hover{
-    background-color: #ededed; !important;
-    color: #3c3c3c; !important;
-    border: 1px solid #fff !important;   
-}
-
-
-
 /*NAVIGATION*/
 
-.navbar {
+.collapse a {
     font-family: 'Karla', sans-serif;
-    border-bottom: none;
-    height: 50px;
-    background-color: transparent!important;
     text-transform: uppercase;
-    font-weight: 600;
+    color: black;
+    background-color: transparent;
 }
 
-.navbar-nav a {
-    color:white!important;
-    text-transform: uppercase;
-    padding: 30px;
-}
 
 .navbar a:hover{
-    background-color: grey;
+    background-color:black;
     
 }
-
-
-
 
 /*HOME*/
     
@@ -64,14 +23,13 @@ p{
     min-height: 1000px;
     background-image: url(codebus.jpg);
     background-size:cover;
-    filter: brightness(25%);
+    filter: brightness(28%);
     }
-
 
 .home h1{
     font-size: 28px;
     font-family: 'poppins', sans-serif;
-    color: white!important;
+    color: black;
     text-align:center;
     padding-top: 300px;
    }
@@ -85,170 +43,25 @@ p{
 }
 
 
-    /*SERVICES*/
-    .services{
-    background-color: dodgerblue;
-    padding-top: 500px;
-    color: aqua;
-        
+    /*FOCUS*/
+ h2 {
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
     }
-    .services i{
-        border-radius: 50px;
-        background-color: skyblue;
-        height: 50px;
-        width: 80px;  
+    
+/*  PROGRAM*/    
+    
         
-    }
-
- 
+/* PARTNER*/
 
 
-/*    TEAM*/
-    .row {
-        padding: 50px 0 50px;
-        text-align:center;
-        background-color: dodgerblue;
-    }
-    
-    .team b,
-    .team h2,
-    .team h4 {
-        margin: 20px 0 20px;
-        color: #4c4c4c;
-                    
-    }
-    .team P{
-        color: #737373;
-        
-    }
-    .team img{
-        height: 150px;
-        width: 150px;
-        margin-top: 80px;
-        
-    }
-    . team i{
-        height: 30px;
-        width: 30px;
-        padding: 5px;
-        font-size: 17px;
-        border-radius: 50%;
-        background-color: white;
-        
-    }
-    .team a:hover i{
-        
-        background-color: #709963;
-        
-    }
-        
-    
-    
-    
-/* CLIENT*/
+/* CONTACT*/
 
-    .clients{
-        padding: 50px 0px 50px;
-        background-color: black;
-        text-align: center;
-        color: darkred;
-         }
-    
-    .client h2 {
-        color: aqua;
-    }
-
-    .clients p{
-padding-bottom: 40px;
-    }
-    .clients img{
-        width: 200px;
-        opacity: 0.6;
-        cursor: pointer;
-        margin: 40px 0;
-        transition: all 500ms ease-in-out;
-    }
-    
-    .clients li:hover img{
-        opacity: 1;
-        
-    }
-    
-
-
-/*    CONTACT*/
-
-    .contact{
-        padding: 50px 0 80px;
-        text-align: center;
-            }
-    .contact p{
-        padding-bottom: 80px;
-        color: #737373;
-            }
-    .contact h2{
-        color: #4c4c4c;
-        margin: 20px 0 20px;
-    
-    }
-    .contact.input{
-        margin-bottom: 25px;
-        
-    }
-    .contact .font-control{
-        border-radius: 0 !important;
-    }
-    .contact span{
-        border-radius:0 !important;
-        
-    }
-    .contact .btn{
-        border-radius: 0;
-        width: 100%;
-        font-size: 15px;
-        background-color: #f08080;
-        color: white;
-            }
-    
-    .contact .btn:hover {
-        background-color: #a85959 !important;
-        color: white !important;
-        
-}
+      
+/* FOOTER*/
     
     
-/*    FOOTER*/
-    
-    .footer {
-        padding: 50px;
-        color: white;
-        color: black;
-    }
-    
-    .footer .social {
-        font-size: 20px;
-        height: 30px;
-        width: 30px;
-        text-align: center;
-        padding: 1px #cccccc;
-        margin-bottom: 10px;
-        margin-right: 5px;    
-    }
-    
-    .footer input{
-        height: 40px;
-        width: 160px;
-        padding: 5px;
-        border: none;
-        background-color: #cccccc;
-        color: black;
-    }
-    
-    .footer .btn{
-        padding: 10px 5px 10px;
-        margin; -3px 0 0 5px;
-        
-    }
     
     
     
