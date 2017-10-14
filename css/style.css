@@ -52,6 +52,12 @@
     
 /*  PROGRAM*/    
     
+    .packages {
+        border-radius: 5px;
+        padding: 30px;
+        border: 3px solid color;
+        background-color:mintcream;
+    }
         
 /* PARTNER*/
 
